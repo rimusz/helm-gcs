@@ -58,7 +58,7 @@ push)
   helm repo index --merge $OLD_INDEX --url $BUCKET $TMP_REPO
   gsutil cp $TMP_REPO/index.yaml $BUCKET
   gsutil cp $TMP_REPO/$(basename $CHART_PATH) $BUCKET
-  echo "Repository initialized..."
+  echo "Repository updated..."
   ;;
 *)
   usage
