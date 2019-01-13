@@ -16,7 +16,7 @@ function usage() {
     helm gcs push [CHART_FILE] [BUCKET_URL]
 
   Available Commands:
-    init    Initialize an existing Cloud Storage Bucket to a Helm repo
+    init    Initialize an existing Cloud Storage Bucket to be a Helm repo
     push    Upload the chart to your bucket
 
   Example:
